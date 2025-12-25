@@ -1,0 +1,1 @@
+printf("haram k nh ha barabar");
