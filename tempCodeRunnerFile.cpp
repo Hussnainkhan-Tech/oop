@@ -1,1 +1,1 @@
-s.display();
+return 0;

@@ -37,6 +37,20 @@ class list{
         temp->next=NULL;
         delete temp;
      }
+
+     void pop_back(){
+        if(head==NULL){
+            return;
+        }
+        node*temp=head;
+        while(temp->next!=tail){
+            temp=temp->next;
+        }
+        temp->next=NULL;
+        delete tail;
+        temp=tail;
+
+     }
     void show(){
         node*temp=head;
         while(temp!=NULL){
@@ -54,6 +68,7 @@ int main(){
     s.push_back(34);
     s.push_back(23);
     s.pop_front();
+    s.pop_back();
     s.show();
     return 0;
 
