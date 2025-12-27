@@ -50,7 +50,7 @@ class list{
             }
 
                     void pop_front(){
-                        if(head== NULL){
+                        if(head==NULL){
                             return;
                         }
                         node*temp=head;
